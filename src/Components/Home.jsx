@@ -9,7 +9,7 @@ import Asa2 from '../imgs_sobre/Asa2.png'
 import { Link } from "react-router-dom"
 
 
-import "./Home.css"
+import "./home.css"
 import "./Header/index.jsx"
 
 
