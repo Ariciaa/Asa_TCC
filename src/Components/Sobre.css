@@ -1,0 +1,45 @@
+
+
+.asaimg img{
+    width: 23rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: .8rem;
+}
+
+.tssobre{
+    display: flex;
+    flex-direction: inline;
+    gap: .6rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tssobre h1{
+    margin-top: .4rem;
+}
+
+.tssobre img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+li{
+    margin-left: 3rem;
+    margin-right: 1.4rem;
+    text-align: justify;
+}
+
+@media (min-width:768px){
+    .asaimg{
+        text-align: center;
+    }
+}
+
+
+
+
+

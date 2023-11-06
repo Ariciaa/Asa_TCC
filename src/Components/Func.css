@@ -1,0 +1,120 @@
+
+.func{
+    margin-left: 2rem;
+  
+}
+.asa3{
+    text-align: center;
+}
+
+.engrenagem{
+    display: flex;
+    flex-direction: inline;
+    gap: .6rem;
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+    margin-bottom: .6rem;
+}
+
+.engrenagem h2{
+    margin-top: .5rem;
+}
+
+.equip{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.equipt p{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 2rem;
+}
+  
+  .placa img {
+    display: block;
+    margin: 0 auto;
+    height: 18rem;
+  }
+
+  
+  .df img {
+    display: block;
+    margin: 0 auto;
+    height: 20rem;
+  }
+
+  .som img {
+    display: block;
+    margin: 0 auto;
+    height: 12rem;
+    margin-top: 2.6rem;
+    margin-bottom: 3.8rem;
+  }
+
+  .blue img {
+    display: block;
+    margin: 0 auto;
+    height: 18rem;
+  }
+
+  .led img {
+    display: block;
+    margin: 0 auto;
+    height: 13rem;
+    margin-top: 2.6rem;
+    margin-bottom: 3.8rem;
+  }
+
+  .proto img {
+    display: block;
+    margin: 0 auto;
+    height: 18rem;
+  }
+
+  .jumpers img {
+    display: block;
+    margin: 0 auto;
+    height: 18rem;
+    margin-top: 2.6rem;
+    margin-bottom: 3.8rem;
+  }
+
+  .tituloequip{
+    display: flex;
+    flex-direction: inline;
+    gap: .6rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2.2rem;
+    text-align: center;
+    font-size: large;
+}
+
+.tituloequio img{
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: .6rem;
+}
+
+.vdo h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #video video {
+    width: 90%; 
+    height: 15rem; 
+  }
+}

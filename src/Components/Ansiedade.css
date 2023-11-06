@@ -1,0 +1,112 @@
+.forma{
+    background-color: #1C486B;
+    color: #1C486B;
+    width: .3rem;
+    height: 1.8rem;
+    border-radius: 10rem;
+}
+
+.tituloans{
+    display: flex;
+    flex-direction: inline;
+    gap: .6rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: .8rem;
+}
+
+.tristeimg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nots1 img{
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.nots1 p{
+    margin: 0;
+    padding-right: 1.2rem;
+    font-size: small;
+    text-align: center;
+}
+
+.nots1 img:hover{
+    transform:scale(1.1);
+}
+.nots1{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-left: 1.4rem;
+    margin-bottom: 1.6em;
+}
+
+.nots2 p{
+    margin: 0;
+    padding-right: 1.2rem;
+    font-size: small;
+    text-align: center;
+}
+
+.nots2 img{
+    border-radius: 1rem;
+}
+
+.nots2 img:hover{
+    transform:scale(1.1);
+}
+.nots2{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-left: 1.4rem;
+}
+
+.noticias{
+    background-color: #F5F5F5;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.noticias h2{
+    padding-top: 1rem;
+    margin-left: 1.2rem;
+    color: #1C486B;
+}
+
+.tratamento hr{
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+}
+
+.logofinal2 img{
+    width: 10rem;
+    margin-left: .5rem;
+    margin-bottom: .7rem;
+}
+
+@media (max-width:768px){
+    .nots1{
+        gap: .0rem;
+        margin-left: -2.4rem;
+    }
+
+    .nots2{
+        gap: .0rem;
+        margin-left: -2.4rem;
+    }
+}
+
+@media (min-width:768px){
+    .fotosnots{
+  margin-top: 5rem;
+    display: flex;
+   
+    }
+}
